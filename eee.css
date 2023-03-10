@@ -91,7 +91,7 @@ color: GREEN;
   background: ;
 }
 .pclock {
-position: absolute;
+position: relative;
   bottom: 100px;
   right: 100px;
 }
