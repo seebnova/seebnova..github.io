@@ -90,6 +90,9 @@ color: GREEN;
 .aside-2 {
   background: ;
 }
+.pclock {
+  background:yellow ;
+}
 
 @media all and (min-width: 600px) {
   .aside { flex: 1 0 0; }
