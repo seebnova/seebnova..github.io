@@ -93,7 +93,7 @@ color: GREEN;
 .pclock {
   background:yellow ;
 position: fixed;
-  bottom: 0;
+  bottom: 100;
   right: 0;
 }
 
