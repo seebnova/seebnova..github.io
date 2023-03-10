@@ -92,8 +92,8 @@ color: GREEN;
 }
 .pclock {
 position: relative;
-  bottom: 100px;
-  right: 100px;
+  bottom: 0px;
+  right: 0px;
 }
 
 @media all and (min-width: 600px) {
