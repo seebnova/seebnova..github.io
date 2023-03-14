@@ -11,9 +11,9 @@ body {
 .wrapper {
   display: flex;  
   flex-flow: row wrap;
-  font-weight: bold;
+  font-weight: 400;
   text-align: center; 
-	font-family: "Palatino Linotype", "Lucida Console", "Courier New", monospace;
+	font-family: "sans-serif", "Palatino Linotype", "Lucida Console", "Courier New", monospace;
 	color: white;
 
 }
@@ -65,7 +65,7 @@ display: block;
     padding: 1em;
     border-top: 1px solid rgba(255, 255, 255,0.3); 
     border-bottom: 1px none rgba(0, 0, 0, 0.1); 
-color: GREEN;
+color: #396;
   }
   .navigation li:last-of-type a {
     border-bottom: none;
