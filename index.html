@@ -4,6 +4,46 @@
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel="stylesheet" type="text/css">
 
 <link rel="stylesheet" href="eee.css">
+<!--------------->
+   <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+   <script>
+      $(function() {
+         $("#includeHtml").load("countdown.html");
+      });
+   </script>
+<!--------------->
+<!--------------->
+<style>
+
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: #00BF96;
+	display: inline-block;
+}
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #00816A;
+	display: inline-block;
+}
+smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
+</style>
+<!--------------->
+	
+	
+	
 </head>
 <body>
 <div class="wrapper">
@@ -54,7 +94,12 @@
 
 </aside>
 <aside class="aside aside-2">Aside 2z1x</aside>
-<footer class="footer">Done for 2023</footer>
+<footer class="footer">Done for 2023
+<p>init</p>
+<p>
+<div id="includeHtml"></div>
+</p>
+</footer>
 
 </div>
 
