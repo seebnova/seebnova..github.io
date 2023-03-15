@@ -7,6 +7,37 @@ body {
 
 }
 
+p{
+
+}
+.flex-container {
+    display: flex;
+}
+
+.blog{
+font-size: 22px;
+color: white;MediumSpringGreen;
+padding-left: 40px;
+background:  RGBa(106, 128, 120,0.6); 
+flex: 3; 
+    margin-right: 20px;
+border-radius: 20px;
+}
+
+.viz{
+font-size: 22px;
+color: white;MediumSpringGreen;
+padding-left: 40px;
+background:  RGBa(106, 128, 120,0.6);  
+border-radius: 20px;
+flex: 1.9;
+padding-top:10px;
+padding-bottom:10px;
+}
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 
 
 .wrapper {
   display: flex;  
