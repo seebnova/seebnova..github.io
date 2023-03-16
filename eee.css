@@ -31,8 +31,8 @@ padding-left: 40px;
 background:  RGBa(106, 128, 120,0.6);  
 border-radius: 20px;
 flex: 1.9;
-padding-top:10px;
-padding-bottom:10px;
+padding-top:5px;
+padding-bottom:5px;
 }
 
 .flex-child:first-child {
